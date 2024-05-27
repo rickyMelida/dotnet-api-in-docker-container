@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "83oKofz/QxrbkIACccpNVlmZ5aT/q9ghA0oLqVCLR08=",
+  "Source": "simple-dotnet-api",
+  "BasePath": "_content/simple-dotnet-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  my_app:
+    build:
+      context: .
+    ports:
+      - "7237:80"
+    links:
+      - my_db
+  my_db:
+    image: postgres
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=12345678
+      - POSTGRES_DB=postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
